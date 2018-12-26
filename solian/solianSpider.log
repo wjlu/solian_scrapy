@@ -1,0 +1,372 @@
+2018-12-26 17:42:14 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: solian)
+2018-12-26 17:42:14 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.0, w3lib 1.19.0, Twisted 18.7.0, Python 3.6.5 |Anaconda, Inc.| (default, Apr 26 2018, 08:42:37) - [GCC 4.2.1 Compatible Clang 4.0.1 (tags/RELEASE_401/final)], pyOpenSSL 18.0.0 (OpenSSL 1.0.2o  27 Mar 2018), cryptography 2.2.2, Platform Darwin-18.0.0-x86_64-i386-64bit
+2018-12-26 17:42:14 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'solian', 'DOWNLOAD_DELAY': 2, 'LOG_FILE': 'solianSpider.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'solian.spiders', 'SPIDER_MODULES': ['solian.spiders']}
+2018-12-26 17:42:15 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2018-12-26 17:42:15 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-12-26 17:42:15 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-12-26 17:42:15 [scrapy.middleware] INFO: Enabled item pipelines:
+['solian.pipelines.TimestampPipeline', 'solian.pipelines.MongoPipeline']
+2018-12-26 17:42:15 [scrapy.core.engine] INFO: Spider opened
+2018-12-26 17:42:15 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-12-26 17:42:16 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:42:17 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:42:17 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:42:18 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:42:19 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:42:20 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:42:20 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:42:21 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:42:22 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:42:23 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:42:24 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:42:24 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:42:25 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:42:26 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:42:27 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:42:27 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:42:28 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:42:29 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:42:30 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:42:31 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:42:31 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:42:32 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:42:33 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:42:34 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:42:34 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:42:35 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:42:36 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:42:37 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:42:37 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:42:38 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:42:39 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:42:40 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:42:40 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:42:41 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:42:42 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:42:43 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:42:44 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:42:44 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:42:45 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:42:46 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:42:47 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:42:48 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:42:49 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:42:49 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:42:50 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:42:51 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:42:52 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:42:52 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:42:53 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:42:54 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:42:55 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:42:56 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:42:56 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:42:57 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:42:58 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:42:59 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:43:00 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:43:01 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:43:01 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:43:02 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:43:03 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:43:04 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:43:05 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:43:06 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:43:15 [scrapy.extensions.logstats] INFO: Crawled 17 pages (at 17 pages/min), scraped 170 items (at 170 items/min)
+2018-12-26 17:43:44 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2018-12-26 17:43:44 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2018-12-26 17:43:45 [scrapy.crawler] INFO: Received SIGINT twice, forcing unclean shutdown
+2018-12-26 17:43:48 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: solian)
+2018-12-26 17:43:49 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.0, w3lib 1.19.0, Twisted 18.7.0, Python 3.6.5 |Anaconda, Inc.| (default, Apr 26 2018, 08:42:37) - [GCC 4.2.1 Compatible Clang 4.0.1 (tags/RELEASE_401/final)], pyOpenSSL 18.0.0 (OpenSSL 1.0.2o  27 Mar 2018), cryptography 2.2.2, Platform Darwin-18.0.0-x86_64-i386-64bit
+2018-12-26 17:43:49 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'solian', 'DOWNLOAD_DELAY': 2, 'LOG_FILE': 'solianSpider.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'solian.spiders', 'SPIDER_MODULES': ['solian.spiders']}
+2018-12-26 17:43:49 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2018-12-26 17:43:49 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-12-26 17:43:49 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-12-26 17:43:49 [scrapy.middleware] INFO: Enabled item pipelines:
+['solian.pipelines.TimestampPipeline', 'solian.pipelines.MongoPipeline']
+2018-12-26 17:43:49 [scrapy.core.engine] INFO: Spider opened
+2018-12-26 17:43:49 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-12-26 17:44:49 [scrapy.extensions.logstats] INFO: Crawled 26 pages (at 26 pages/min), scraped 260 items (at 260 items/min)
+2018-12-26 17:45:49 [scrapy.extensions.logstats] INFO: Crawled 50 pages (at 24 pages/min), scraped 500 items (at 240 items/min)
+2018-12-26 17:46:49 [scrapy.extensions.logstats] INFO: Crawled 75 pages (at 25 pages/min), scraped 750 items (at 250 items/min)
+2018-12-26 17:47:27 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2018-12-26 17:47:27 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2018-12-26 17:47:41 [scrapy.crawler] INFO: Received SIGINT twice, forcing unclean shutdown
+2018-12-26 17:47:46 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: solian)
+2018-12-26 17:47:46 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.0, w3lib 1.19.0, Twisted 18.7.0, Python 3.6.5 |Anaconda, Inc.| (default, Apr 26 2018, 08:42:37) - [GCC 4.2.1 Compatible Clang 4.0.1 (tags/RELEASE_401/final)], pyOpenSSL 18.0.0 (OpenSSL 1.0.2o  27 Mar 2018), cryptography 2.2.2, Platform Darwin-18.0.0-x86_64-i386-64bit
+2018-12-26 17:47:46 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'solian', 'DOWNLOAD_DELAY': 2, 'LOG_FILE': 'solianSpider.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'solian.spiders', 'SPIDER_MODULES': ['solian.spiders']}
+2018-12-26 17:47:46 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2018-12-26 17:47:46 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-12-26 17:47:46 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-12-26 17:47:46 [scrapy.middleware] INFO: Enabled item pipelines:
+['solian.pipelines.TimestampPipeline', 'solian.pipelines.MongoPipeline']
+2018-12-26 17:47:46 [scrapy.core.engine] INFO: Spider opened
+2018-12-26 17:47:46 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-12-26 17:47:55 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:48:46 [scrapy.extensions.logstats] INFO: Crawled 25 pages (at 25 pages/min), scraped 250 items (at 250 items/min)
+2018-12-26 17:48:48 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2018-12-26 17:48:48 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2018-12-26 17:48:48 [scrapy.crawler] INFO: Received SIGINT twice, forcing unclean shutdown
+2018-12-26 17:49:31 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: solian)
+2018-12-26 17:49:31 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.0, w3lib 1.19.0, Twisted 18.7.0, Python 3.6.5 |Anaconda, Inc.| (default, Apr 26 2018, 08:42:37) - [GCC 4.2.1 Compatible Clang 4.0.1 (tags/RELEASE_401/final)], pyOpenSSL 18.0.0 (OpenSSL 1.0.2o  27 Mar 2018), cryptography 2.2.2, Platform Darwin-18.0.0-x86_64-i386-64bit
+2018-12-26 17:49:31 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'solian', 'DOWNLOAD_DELAY': 2, 'LOG_FILE': 'solianSpider.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'solian.spiders', 'SPIDER_MODULES': ['solian.spiders']}
+2018-12-26 17:49:31 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2018-12-26 17:49:31 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-12-26 17:49:31 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-12-26 17:49:31 [scrapy.middleware] INFO: Enabled item pipelines:
+['solian.pipelines.TimestampPipeline', 'solian.pipelines.MongoPipeline']
+2018-12-26 17:49:31 [scrapy.core.engine] INFO: Spider opened
+2018-12-26 17:49:31 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-12-26 17:49:35 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2018-12-26 17:49:35 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2018-12-26 17:49:38 [scrapy.crawler] INFO: Received SIGINT twice, forcing unclean shutdown
+2018-12-26 17:50:49 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: solian)
+2018-12-26 17:50:49 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.0, w3lib 1.19.0, Twisted 18.7.0, Python 3.6.5 |Anaconda, Inc.| (default, Apr 26 2018, 08:42:37) - [GCC 4.2.1 Compatible Clang 4.0.1 (tags/RELEASE_401/final)], pyOpenSSL 18.0.0 (OpenSSL 1.0.2o  27 Mar 2018), cryptography 2.2.2, Platform Darwin-18.0.0-x86_64-i386-64bit
+2018-12-26 17:50:49 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'solian', 'DOWNLOAD_DELAY': 2, 'LOG_FILE': 'solianSpider.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'solian.spiders', 'SPIDER_MODULES': ['solian.spiders']}
+2018-12-26 17:50:49 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2018-12-26 17:50:49 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-12-26 17:50:49 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-12-26 17:50:49 [scrapy.middleware] INFO: Enabled item pipelines:
+['solian.pipelines.TimestampPipeline', 'solian.pipelines.MongoPipeline']
+2018-12-26 17:50:49 [scrapy.core.engine] INFO: Spider opened
+2018-12-26 17:50:49 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-12-26 17:50:55 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2018-12-26 17:50:55 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2018-12-26 17:50:55 [scrapy.crawler] INFO: Received SIGINT twice, forcing unclean shutdown
+2018-12-26 17:51:25 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: solian)
+2018-12-26 17:51:25 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.0, w3lib 1.19.0, Twisted 18.7.0, Python 3.6.5 |Anaconda, Inc.| (default, Apr 26 2018, 08:42:37) - [GCC 4.2.1 Compatible Clang 4.0.1 (tags/RELEASE_401/final)], pyOpenSSL 18.0.0 (OpenSSL 1.0.2o  27 Mar 2018), cryptography 2.2.2, Platform Darwin-18.0.0-x86_64-i386-64bit
+2018-12-26 17:51:25 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'solian', 'DOWNLOAD_DELAY': 2, 'LOG_FILE': 'solianSpider.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'solian.spiders', 'SPIDER_MODULES': ['solian.spiders']}
+2018-12-26 17:51:25 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2018-12-26 17:51:25 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-12-26 17:51:25 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-12-26 17:51:25 [scrapy.middleware] INFO: Enabled item pipelines:
+['solian.pipelines.TimestampPipeline', 'solian.pipelines.MongoPipeline']
+2018-12-26 17:51:25 [scrapy.core.engine] INFO: Spider opened
+2018-12-26 17:51:25 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-12-26 17:51:33 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:52:25 [scrapy.extensions.logstats] INFO: Crawled 24 pages (at 24 pages/min), scraped 240 items (at 240 items/min)
+2018-12-26 17:53:25 [scrapy.extensions.logstats] INFO: Crawled 49 pages (at 25 pages/min), scraped 490 items (at 250 items/min)
+2018-12-26 17:53:55 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2018-12-26 17:53:55 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2018-12-26 17:53:58 [scrapy.crawler] INFO: Received SIGINT twice, forcing unclean shutdown
+2018-12-26 17:54:01 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: solian)
+2018-12-26 17:54:01 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.0, w3lib 1.19.0, Twisted 18.7.0, Python 3.6.5 |Anaconda, Inc.| (default, Apr 26 2018, 08:42:37) - [GCC 4.2.1 Compatible Clang 4.0.1 (tags/RELEASE_401/final)], pyOpenSSL 18.0.0 (OpenSSL 1.0.2o  27 Mar 2018), cryptography 2.2.2, Platform Darwin-18.0.0-x86_64-i386-64bit
+2018-12-26 17:54:01 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'solian', 'DOWNLOAD_DELAY': 2, 'LOG_FILE': 'solianSpider.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'solian.spiders', 'SPIDER_MODULES': ['solian.spiders']}
+2018-12-26 17:54:01 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2018-12-26 17:54:01 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-12-26 17:54:01 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-12-26 17:54:01 [scrapy.middleware] INFO: Enabled item pipelines:
+['solian.pipelines.TimestampPipeline', 'solian.pipelines.MongoPipeline']
+2018-12-26 17:54:01 [scrapy.core.engine] INFO: Spider opened
+2018-12-26 17:54:01 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-12-26 17:54:09 [solian.pipelines] INFO: {"api": "/api/v1.0/article", "code": 1, "http_status_code": 201}
+
+2018-12-26 17:54:24 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2018-12-26 17:54:24 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2018-12-26 17:54:25 [scrapy.crawler] INFO: Received SIGINT twice, forcing unclean shutdown

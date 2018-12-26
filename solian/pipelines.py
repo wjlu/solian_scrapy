@@ -108,11 +108,8 @@ class MongoPipeline(object):
             # b 对mongodb 插入数据并置位1
             self.db[self.collection_name].update(myquery, dict(item), True)
         elif self.db[self.collection_name].find(myquery).count() == 1:
-            print(self.db[self.collection_name].find(myquery))
+            # print(self.db[self.collection_name].find(myquery)) ?
             item['purl'] = '2'
-            print(item['purl'])
-            if item['purl'] =='1':
-                print('here here!!!')
             self.db[self.collection_name].update_one(myquery, {'$set':{'purl': '2'}})
         else:
             self.logger.ERROR('there ie error')

@@ -9,7 +9,7 @@ class SolianpySpider(Spider):
     name = 'solianpy'
     allowed_domains = ['solian.net']
     start_urls = 'http://solian.net:9233/article/searchflash?'
-    max_page = 49
+    max_page = 10
 
     def start_requests(self):
         for page in range(1,self.max_page + 1):

@@ -110,6 +110,8 @@ class MongoPipeline(object):
         elif self.db[self.collection_name].find(myquery).count() == 1:
             item['purl'] = '2'
             print(item['purl'])
+            if item['purl'] =='1':
+                print('here here!!!')
             self.db[self.collection_name].update_one(myquery, {'$set':{'purl': '2'}})
         else:
             self.logger.ERROR('there ie error')

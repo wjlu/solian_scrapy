@@ -20,7 +20,7 @@ class SolianpySpider(Spider):
     def parse_detail(self, response):
         url = response.url
         result = json.loads(response.text)
-        print(result.get('data'))
+        # print(result.get('data'))
 
         item = UserItem()
         for i in result.get('data'):

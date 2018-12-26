@@ -23,17 +23,13 @@ class TimestampPipeline(object):
             if item.get('timestamp'):
                 item['date'] = time.strftime("%Y年%m月%d日 %H:%M:%S", time.localtime(item.get('timestamp')))
             # 增加url是否为空的判断
-            print(type(item['url']))
             if item.get('url') == '' :
-                print('进入')
                 if item.get('source') == '共享财经':
                     item['url']= 'http://www.gongxiangcj.com/short_news'
                 if item.get('source')=='金色财经':
                     item['url'] = 'https://www.jinse.com/lives'
-                    print('进入金色财经')
                 if item.get('source')=='火讯财经':
                     item['url'] = 'https://huoxun.com/lives.html'
-                    print('进入火讯财经')
                 if item.get('source')=='未来财经':
                     item['url'] = 'http://www.weilaicaijing.com/NowExpress'
                 if item.get('source')=='币快财经':
@@ -113,6 +109,7 @@ class MongoPipeline(object):
             self.db[self.collection_name].update(myquery, dict(item), True)
         elif self.db[self.collection_name].find(myquery).count() == 1:
             item['purl'] = '2'
+            print(item['purl'])
             self.db[self.collection_name].update_one(myquery, {'$set':{'purl': '2'}})
         else:
             self.logger.ERROR('there ie error')
